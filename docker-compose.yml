@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  app:
+    build: .
+    image: cashtab_api
+    container_name: cashtab_api
